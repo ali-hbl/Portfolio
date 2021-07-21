@@ -1,6 +1,6 @@
 /*GENERAL*/
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
 }
 
 h1,
@@ -9,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 img {
@@ -49,6 +49,44 @@ section .heading h2 {
   height: 2px;
   background-color: #fff;
   margin: 10px auto;
+}
+
+/* NAVBAR */
+.navbar {
+  position: relative;
+  background: #d82c2e !important;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar li a {
+  color: white !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #d82c2e !important;
+  background-color: white !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-style: none;
+}
+
+.icon-bar {
+  background-color: white !important;
 }
 
 /* ABOUT */
